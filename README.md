@@ -1,8 +1,8 @@
-# ontobio-galaxy
+# Ontobio Galaxy
 [Ontobio](http://nbviewer.jupyter.org/github/biolink/ontobio/) galaxy interface
 
 
-[![Build Status](https://travis-ci.org/nathandunn/ontobio-galaxy.svg?branch=master)](https://travis-ci.org/nathandunn/ontobio-galaxy)
+[![Build Status](https://travis-ci.org/nathandunn/ontobio_galaxy.svg?branch=master)](https://travis-ci.org/nathandunn/ontobio_galaxy)
 
 
 
