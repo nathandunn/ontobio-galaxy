@@ -1,0 +1,25 @@
+<macros>
+    <xml name="frontmatter">
+        <requirements>
+        </requirements>
+        <stdio>
+            <exit_code range="1:"/>
+        </stdio>
+        <yield/>
+    </xml>
+    <xml name="citations">
+        <help><![CDATA[
+        Pulls data from Planteome BioLink API web services as JSON.
+		http://biolink.planteome.org/api/
+    ]]></help>
+        <citations>
+            <citation type="doi">doi:10.5281/zenodo.817595</citation>
+        </citations>
+        <yield/>
+    </xml>
+    <xml name="outputs">
+        <outputs>
+            <data name="output" format="json"/>
+        </outputs>
+    </xml>
+</macros>
