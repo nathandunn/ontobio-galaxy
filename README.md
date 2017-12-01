@@ -5,6 +5,9 @@
 [![Build Status](https://travis-ci.org/nathandunn/ontobio_galaxy.svg?branch=master)](https://travis-ci.org/nathandunn/ontobio_galaxy)
 
 
+Install notes:
+
+http://www.peterbronez.com/Using%20PyPi%20Packages%20with%20Conda
 
 
 To Fix: 

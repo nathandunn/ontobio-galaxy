@@ -1,17 +1,26 @@
 <tool id="phenotype-enrichment" name="Phenotype Enrichment" version="0.1.0">
     <!--From: http://nbviewer.jupyter.org/github/biolink/ontobio/blob/master/notebooks/Phenotype_Enrichment.ipynb-->
+    <description></description>
     <macros>
         <import>macros.xml</import>
     </macros>
-    <expand macro="frontmatter"/>
+    <!--<code file="phenotype_enrichment.py"/>-->
+    <!--<expand macro="frontmatter"/>-->
+    <!--<expand macro="requirements"/>-->
     <command detect_errors="exit_code"><![CDATA[
-        TODO: Fill in command template.
+            python $__tool_directory__/phenotype_enrichment.py
     ]]></command>
     <inputs>
-       <param  name="input" type="text" format="txt" multiple="true" label="Gene ID (e.g. NCBIGene:6295,NCBIGene:1258)" />
+        <param name="input" type="text" format="txt" multiple="true"
+               label="Gene ID (e.g. NCBIGene:6295,NCBIGene:1258)"/>
     </inputs>
     <outputs>
+        <data name="output" format="txt"/>
     </outputs>
+    <test>
+        <param name="input" value="NCBIGene:6295,NCBIGene:1258"/>
+        <output name="output" file="phenotype_enrichments.txt"/>
+    </test>
     <help><![CDATA[
         TODO: Fill in help.
     ]]></help>
